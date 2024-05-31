@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 
-/*===== share =====*/
+/*===== common =====*/
 .d-flex {
     display: flex;
 }
@@ -47,6 +47,10 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .mt-30 {
     margin-top: 30px;
 }
@@ -56,9 +60,18 @@ a {
 .mb-30 {
     margin-bottom: 30px;
 }
-.py-10 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.ml-320 {
+    margin-left: 320px;
+}
+
+/*==== header ====*/
+.slogan {
+    left: 20%;
+    top: 35%;
+}
+.chicken_breast {
+    left: 625px;
+    top: 225px;
 }
 
 /*==== design class ====*/
@@ -82,15 +95,3 @@ a {
     gap: 1rem;
     border: 3px solid red;
 }
-
-/*==== header ====*/
-.slogan {
-    left: 20%;
-    top: 35%;
-}
-.chicken_breast {
-    left: 625px;
-    top: 225px;
-}
-
-
