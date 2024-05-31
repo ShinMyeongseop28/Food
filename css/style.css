@@ -1,1 +1,45 @@
 @charset "utf-8";
+html {
+    font-size: 20px;
+}
+.d-flex {
+    display: flex;
+}
+.fs-1 {
+    font-size: 1.6rem;
+}
+.fs-2 {
+    font-size: 1.4rem;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 2rem;
+}
+.mx-auto {
+    margin: 0 auto;
+}
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-yellow {
+    background-color: yellow;
+}
