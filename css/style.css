@@ -2,6 +2,11 @@
 html {
     font-size: 20px;
 }
+a {
+    text-decoration: none;
+}
+
+/*===== share =====*/
 .d-flex {
     display: flex;
 }
@@ -36,10 +41,38 @@ html {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.mt-30 {
+    margin-top: 30px;
+}
 .py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .bg-yellow {
     background-color: yellow;
+}
+
+/*==== design class ====*/
+.container {
+    max-width: 1320px;
+}
+.container-fluid {
+    width: 100%;
+}
+
+.position-relative {
+    position: relative;
+    top: 2px;
+    right: 50px;
+}
+#search {
+    width: 350px;
+    height: 50px;
+    gap: 1rem;
+    border: 3px solid red;
+}
+
+/*===== nav =====*/
+.text-decoration {
+    text-decoration: none;
 }
