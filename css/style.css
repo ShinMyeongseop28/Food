@@ -34,6 +34,9 @@ a {
 .gap-2 {
     gap: 2rem;
 }
+.gap-7 {
+    gap: 7rem;
+}
 .mx-auto {
     margin: 0 auto;
 }
@@ -43,6 +46,9 @@ a {
 }
 .mt-30 {
     margin-top: 30px;
+}
+.mt-50 {
+    margin-top: 50px;
 }
 .py-10 {
     padding-top: 10px;
@@ -57,7 +63,7 @@ a {
     max-width: 1320px;
 }
 .container-fluid {
-    width: 100%;
+    width: 80%;
 }
 
 .position-relative {
@@ -66,7 +72,7 @@ a {
     right: 50px;
 }
 #search {
-    width: 350px;
+    width: 550px;
     height: 50px;
     gap: 1rem;
     border: 3px solid red;
